@@ -418,6 +418,18 @@ const PomodoroTimer = () => {
         </div>
       </div>
 
+      {/* Sponsor button */}
+      <div className="bg-white py-4 text-center">
+        <a
+          href="https://buymeacoffee.com/thatsaasdude"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded transition duration-300"
+        >
+          Sponsor The Challenge
+        </a>
+      </div>
+
       {notificationPermission === 'default' && (
         <div className="fixed bottom-4 right-4 bg-white p-4 rounded-lg shadow-lg">
           <p className="mb-2">Enable notifications for break and session alerts?</p>
