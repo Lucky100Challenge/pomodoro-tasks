@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pomodoro Tasks
+
+Welcome to **Pomodoro Tasks** – a gamified Pomodoro timer designed to help you stay focused, manage your tasks, and celebrate productivity milestones. This app combines the Pomodoro technique with task management and engaging gamification features to make working both efficient and fun!
+
+## Features
+
+### Timer Functionality
+- Customizable work session duration
+- Customizable break duration
+- Start, pause, and reset timers
+- Automatic switching between work and break sessions
+
+### Task Management
+- Add and manage custom tasks
+- Preset task suggestions
+- Mark tasks as complete or incomplete
+- Start/stop individual task timers
+- Track time spent on each task
+
+### Session Management
+- Set total number of sessions for the day
+- Track completed sessions for better productivity insights
+
+### Gamification
+- **Point System**: Earn points for completing tasks and sessions
+- **Leveling System**: Progress through levels as you accumulate points
+- **Ranking System**: Rise from Time Novice to Pomodoro Virtuoso!
+- **Streak Tracking**: Track consecutive days of use to build momentum
+
+### Notifications
+- End of session notifications
+- End of break notifications
+- Level-up and rank-up notifications
+
+### UI/UX
+- Responsive design with a sidebar for task management
+- Visual timer with pulsing animation
+- Progress display (rank, level, points, and streak)
+- Next rank information
+- Toggle to show/hide preset tasks
+- Confetti celebration when you complete a session!
+
+## Screenshots
+*Include screenshots of the timer, task manager, and gamification features to give users a preview of the app.*
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/pomodoro-tasks.git
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd pomodoro-tasks
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Run the Application:**
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. **Open in Browser:**
+   Visit `http://localhost:3000` to start using the Pomodoro timer.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**: The core framework for the app
+- **JavaScript**: The main language used
+- **Styled-Components**: For custom styling
+- **Framer Motion**: For animations and effects
+- **Notifications API**: For user alerts and reminders
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! If you’d like to help improve the project, feel free to open an issue or submit a pull request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+This version reflects your repository name and the key features of your Pomodoro timer!
